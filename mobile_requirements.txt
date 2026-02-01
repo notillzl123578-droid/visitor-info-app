@@ -1,0 +1,8 @@
+# 移动版精简依赖
+kivy==2.3.0
+pillow==10.0.0
+# 移除Windows特定依赖
+# pywin32 - 仅Windows需要
+# pytesseract - 需要外部程序
+# paddleocr - 体积过大
+# python-docx - 移动版暂不支持.doc文件
